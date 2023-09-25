@@ -24,4 +24,5 @@ module "ctfd" {
   elasticache_cluster_instance_type = "cache.t2.micro"
   elasticache_cluster_instances     = 2
   force_destroy_log_bucket          = true
+  db_serverless                     = true
 }
